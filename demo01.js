@@ -1,19 +1,12 @@
-function getSomething () {
-  return 'something'
+function takeLongTime() {
+  return new Promise(resolve => {
+    setTimeout(() => resolve('LongTimeValue'), 4000)
+  })
 }
 
-// async异步的方法
-async function testAsync() {
-  return 'hello, wikiHong:testAsync'
+async function test(){
+ const v = await takeLongTime();
+ console.log(v);
 }
 
-async function textAwait() {
-  const v1 = await getSomething()
-  const v2 = await testAsync()
-  console.log(v1, v2)
-}
-
-const result = testAsync();
-console.log(result);
-const result2 = textAwait();
-console.log(result2);
+test();
