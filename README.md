@@ -4,3 +4,9 @@
 - `node -v`
 - `sudo npm install -g n`
 - `sudo n stable`
+###### Mac下面上传github
+- `git init`
+-  `git remote add origin git@github.com:hongjingping/Koa2.git`
+- `git status`
+- `git pull origin master`
+- `git push origin master`
