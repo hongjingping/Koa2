@@ -12,11 +12,11 @@ app.use(async (ctx) => {
     <h1>wikiHong Koa2 request POST</h1>
     <form method='POST' action='/'>
       <p>userName</p>
-      <input name='userName'/><br/>
+      <input name='userName' /><br/>
       <p>age</p>
-      <input age='age'/><br/>
+      <input age='age' /><br/>
       <p>webSite</p>
-      <input webSite='webSite'/><br/>
+      <input webSite='webSite' /><br/>
       <button type='submit'>submit</button>
     </form>
     `;
