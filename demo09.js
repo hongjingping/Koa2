@@ -5,7 +5,8 @@ const app = new Koa();
 const router = new Router();
 
 router.get('/', async(ctx, next) => {
-  ctx.body='wikiHong, today is Friday';
+  // 接收参数
+  ctx.body= ctx.query;
 })
 
 app.use(router.routes())
