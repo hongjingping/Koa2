@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/hongjingping/Koa2#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "koa": "^2.4.1",
     "koa-bodyparser": "^3.2.0",
-    "koa-router": "^7.3.0"
+    "koa-router": "^7.3.0",
+    "koa-views": "^6.1.3"
   }
 }
