@@ -17,7 +17,12 @@ app.use( async(ctx) => {
     );
     ctx.body = 'Cookie is ok, wikiHong';
   } else {
-    ctx.body = 'hello, wikiHong';
+    // 写出
+    if ( ctx.cookies.get('name')) {
+      ctx.body = ctx.cookies.get('name');
+    } else {
+      ctx.body = 'hello, cookies is none';
+    }
   }
 })
 
