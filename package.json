@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hongjingping/Koa2#readme",
   "dependencies": {
     "koa": "^2.4.1",
-    "koa-bodyparser": "^3.2.0"
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.3.0"
   }
 }
